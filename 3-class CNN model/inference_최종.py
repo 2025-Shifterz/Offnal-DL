@@ -56,7 +56,7 @@ else:
     plt.axis('off')
     plt.show()
 
-    def sort_points(pts):
+def sort_points(pts):
     pts = pts.reshape(4, 2)
     rect = np.zeros((4, 2), dtype="float32")
     s = pts.sum(axis=1)
