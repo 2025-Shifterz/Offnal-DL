@@ -2,7 +2,7 @@
 이 프로젝트는 교대근무표 이미지를 자동으로 인식하고, 각 셀 단위의 근무타입(Day, Night, Evening, Off)을 분류하여 JSON 형식으로 추출하는 OCR 기반 AI 모델입니다.
 딥러닝 분류기(tflite)와 OpenCV 기반 전처리 파이프라인을 결합하여 다양한 근무표 형태를 정규화하고 자동 인식하도록 설계되었습니다. <br>
 <br>
-이미지 전처리부터 CNN 학습, TFLite 변환까지 전 과정을 하나의 Jupyter Notebook 파일(**3class_final_final(2).ipynb**)에서 실행할 수 있습니다.
+이미지 전처리부터 CNN 학습, TFLite 변환까지 전 과정을 하나의 Jupyter Notebook 파일(modified_3class_model/**3class_final_final(2).ipynb**)에서 실행할 수 있습니다.
 
 ### 프로젝트 개요
 - **목표**<br>
